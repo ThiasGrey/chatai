@@ -30,7 +30,7 @@ export function Chat(props: ChatProps) {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <ScrollArea className="h-[200px] md:h-[400px] w-full space-y-4 px-4">
+        <ScrollArea className="h-[200px]  md:max-h-[500px]  w-full space-y-4 px-4">
           {messages.map((message) => {
             return (
               <div
@@ -59,6 +59,7 @@ export function Chat(props: ChatProps) {
               </div>
             );
           })}
+
         </ScrollArea>
       </CardContent>
       <CardFooter>
