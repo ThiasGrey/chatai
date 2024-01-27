@@ -13,7 +13,7 @@ export default function Home() {
       <div className="relative flex flex-col items-center justify-center h-screen ">
         <Chat />
         <span className="text-sm text-slate-100 mt-3">
-          Developed by Bruno Mathias using the GPT-3 API and Vercel SDK.💖
+          Developed by Bruno Mathias using the GPT-3, react, Tailwind API and Vercel SDK.💖
         </span>
       </div>
     </div>
