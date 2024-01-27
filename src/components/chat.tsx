@@ -39,13 +39,13 @@ export function Chat(props: ChatProps) {
               >
                 {message.role === "user" && (
                   <Avatar>
-                    <AvatarFallback>AI User</AvatarFallback>
+                    <AvatarFallback>AI User Char Qustion</AvatarFallback>
                     <AvatarImage src="https://github.com/OpenUserJS.png" />
                   </Avatar>
                 )}
                 {message.role === "assistant" && (
                   <Avatar className="ml-5">
-                    <AvatarFallback>AI Assistent</AvatarFallback>
+                    <AvatarFallback>AI Assistent ChatBot COnfig</AvatarFallback>
                     <AvatarImage src="https://github.com/ThiasGrey.png" />
                   </Avatar>
                 )}
