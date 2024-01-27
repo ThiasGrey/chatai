@@ -26,7 +26,7 @@ export function Chat(props: ChatProps) {
       <CardHeader>
         <CardTitle>Bruno Mathias GPT Chat AI</CardTitle>
         <CardDescription>
-          Ask me anything that comes to your mind.
+          Ask me anything that comes to your mind. Im here to help you.
         </CardDescription>
       </CardHeader>
       <CardContent>
