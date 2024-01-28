@@ -24,9 +24,9 @@ export function Chat(props: ChatProps) {
   return (
     <Card className="w-full md:w-[500px]">
       <CardHeader>
-        <CardTitle>Bruno Mathias GPT Chat AI</CardTitle>
+        <CardTitle>Bruno Mathias GPT Chat AI -  Em esenvolvimento</CardTitle>
         <CardDescription>
-          Ask me anything that comes to your mind. Im here to help you.
+          Me pergunte o que se passa em sua mente, vou tentar responder.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -39,7 +39,7 @@ export function Chat(props: ChatProps) {
               >
                 {message.role === "user" && (
                   <Avatar>
-                    <AvatarFallback>AI User Char Qustion</AvatarFallback>
+                    <AvatarFallback>AI User</AvatarFallback>
                     <AvatarImage src="https://github.com/OpenUserJS.png" />
                   </Avatar>
                 )}
